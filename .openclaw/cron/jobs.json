@@ -65,6 +65,32 @@
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
+    },
+    {
+      "id": "0626b3ff-2eb0-4d7f-8af3-1471936fdc3a",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "Telegram greeting every 5 minutes",
+      "enabled": true,
+      "createdAtMs": 1773679828717,
+      "updatedAtMs": 1773679828717,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 300000,
+        "anchorMs": 1773679828717
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Send Telegram message: Привет"
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1773680128717
+      }
     }
   ]
 }
