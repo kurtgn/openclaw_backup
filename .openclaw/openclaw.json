@@ -175,7 +175,8 @@
       "enabled": true,
       "token": "[DISCORD_TOKEN]",
       "groupPolicy": "allowlist",
-      "streaming": "off"
+      "streaming": "off",
+      "allowFrom": ["1412474461311205511"]
     }
   },
   "gateway": {

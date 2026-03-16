@@ -26,9 +26,6 @@
       "key": "[MOONSHOT_WEB_SEARCH_API_KEY]"
     }
   },
-  "lastGood": {
-    "moonshot": "moonshot:default"
-  },
   "usageStats": {
     "openai:default": {
       "lastUsed": 1773535065137,
@@ -40,7 +37,7 @@
     },
     "moonshot:default": {
       "errorCount": 0,
-      "lastUsed": 1773666389762
+      "lastUsed": 1773678911769
     }
   }
 }

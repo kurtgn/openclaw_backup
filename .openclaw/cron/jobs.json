@@ -1,1 +1,70 @@
-{"version":1,"jobs":[]}
+{
+  "version": 1,
+  "jobs": [
+    {
+      "id": "7e0cbbe0-f309-4635-bbbd-43d6259f679a",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "Discord adrobot-dev daily summary",
+      "enabled": true,
+      "createdAtMs": 1773675407557,
+      "updatedAtMs": 1773676827137,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 8 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "isolated",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "agentTurn",
+        "message": "Read the last 24 hours of messages from Discord channel adrobot-dev (ID: 1412474461311205511) and create a summary with sections: Bugs, Questions, Other. Use Bot token from Discord/Integration.md. Save the summary to /home/ubuntu/obsidian_notes/Discord/daily-briefing-YYYY-MM-DD.md (use current date in filename), then git add, commit and push to the repository."
+      },
+      "delivery": {
+        "mode": "announce"
+      },
+      "state": {
+        "nextRunAtMs": 1773736200000,
+        "lastRunAtMs": 1773675544764,
+        "lastRunStatus": "error",
+        "lastStatus": "error",
+        "lastDurationMs": 30803,
+        "lastError": "Channel is required when multiple channels are configured: telegram, discord Set delivery.channel explicitly or use a main session with a previous channel.",
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 1
+      }
+    },
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "Daily OpenClaw backup to GitHub",
+      "enabled": true,
+      "createdAtMs": 1773767700000,
+      "updatedAtMs": 1773678741541,
+      "schedule": {
+        "kind": "cron",
+        "expr": "30 4 * * *",
+        "tz": "UTC"
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Run daily backup: execute /home/ubuntu/.openclaw/workspace/backup_agent.sh with GITHUB_TOKEN from environment and push to https://github.com/kurtgn/openclaw_backup"
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1773721800000,
+        "lastRunAtMs": 1773678711823,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 29718,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
+      }
+    }
+  ]
+}
