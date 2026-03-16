@@ -1,0 +1,14 @@
+{
+  "version": 1,
+  "deviceId": "[DEVICE_ID]",
+  "tokens": {
+    "operator": {
+      "token": "[OPERATOR_TOKEN]",
+      "role": "operator",
+      "scopes": [
+        "operator.admin"
+      ],
+      "updatedAtMs": 1773664460978
+    }
+  }
+}

@@ -1,0 +1,38 @@
+{
+  "[DEVICE_ID]": {
+    "deviceId": "[DEVICE_ID]",
+    "publicKey": "kFL8P2DMTAZ4yEsu6uEHklSgBwd0vIwdpiT_RZ36LHY",
+    "platform": "linux",
+    "clientId": "gateway-client",
+    "clientMode": "ui",
+    "role": "operator",
+    "roles": [
+      "operator"
+    ],
+    "scopes": [
+      "operator.read",
+      "operator.admin",
+      "operator.write",
+      "operator.approvals",
+      "operator.pairing"
+    ],
+    "approvedScopes": [
+      "operator.read",
+      "operator.admin"
+    ],
+    "tokens": {
+      "operator": {
+        "token": "[OPERATOR_TOKEN]",
+        "role": "operator",
+        "scopes": [
+          "operator.admin"
+        ],
+        "createdAtMs": 1772272196965,
+        "rotatedAtMs": 1772272397649
+      }
+    },
+    "createdAtMs": 1772272196965,
+    "approvedAtMs": 1772272397649,
+    "displayName": "openclaw-tui"
+  }
+}

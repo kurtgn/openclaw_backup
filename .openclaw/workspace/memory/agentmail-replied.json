@@ -1,0 +1,116 @@
+{
+  "replied": [
+    {
+      "message_id": "<F2AA89F2-1CF5-4FE6-A8D3-C5CFEDA151CE@gmail.com>",
+      "thread_id": "c484eb2e-1b6f-43fc-b756-3cc557547e02",
+      "from": "Maria Khazanova <masha.khazanova@gmail.com>",
+      "subject": null,
+      "replied_at": "2026-03-12T15:59:00Z",
+      "note": "Ответил: И тебе не хворать! Как дела?"
+    },
+    {
+      "message_id": "<A5A5D283-CD46-44BF-B66E-8702E66A5882@gmail.com>",
+      "thread_id": "2151188d-eb9e-4338-8e87-bc67107a9255",
+      "from": "Mikhail Novikov <mikhail.g.novikov@gmail.com>",
+      "subject": "тест",
+      "marked_at": "2026-03-12T21:32:15.411773Z",
+      "note": "marked no-reply by Misha request"
+    },
+    {
+      "message_id": "<BC75605C-64CE-46D3-9DCF-504B959AE91C@icloud.com>",
+      "thread_id": "20c8397b-63c1-496b-9cbb-05bb1c74a632",
+      "from": "Maria K <dl.jongler@icloud.com>",
+      "subject": "Шалом",
+      "marked_at": "2026-03-12T21:32:15.596098Z",
+      "note": "marked no-reply by Misha request"
+    },
+    {
+      "message_id": "<10E3E44A-594D-46FB-ADEC-5CA02DF9DF0B@gmail.com>",
+      "thread_id": "6d0a29cc-5c74-4304-92a0-2713ca36562a",
+      "from": "Mikhail Novikov <mikhail.g.novikov@gmail.com>",
+      "subject": "привет",
+      "marked_at": "2026-03-12T21:32:15.671322Z",
+      "note": "marked no-reply by Misha request"
+    },
+    {
+      "message_id": "<6931726F-6567-4612-9150-49814059EE99@gmail.com>",
+      "thread_id": "",
+      "from": "Mikhail Novikov",
+      "subject": "Привет",
+      "replied_at": "2026-03-12T21:34:45.257899+00:00",
+      "note": "Re: Привет — Привет! Как дела?"
+    },
+    {
+      "message_id": "<0100019ce755afe1-5e1e7a3c-aee2-471a-80be-ef7b9090c920-000000@email.amazonses.com>",
+      "thread_id": "b86035dd-81f9-48b8-9bd4-cf09683394df",
+      "from": "mailer-daemon@amazonses.com",
+      "subject": "Delivery Status Notification (Failure)",
+      "marked_at": "2026-03-13T15:29:00Z",
+      "note": "bounce, marked read"
+    },
+    {
+      "message_id": "<0100019ce7510b99-aebe03c3-756c-4c9c-98e7-e416faf0aa62-000000@email.amazonses.com>",
+      "thread_id": "34c48bb8-29af-4481-bff4-51bba5391daf",
+      "from": "mailer-daemon@amazonses.com",
+      "subject": "Delivery Status Notification (Failure)",
+      "marked_at": "2026-03-13T15:29:00Z",
+      "note": "bounce, marked read"
+    },
+    {
+      "message_id": "<0100019ce74d6063-e7814d23-d757-4863-b03f-ef84754357e0-000000@email.amazonses.com>",
+      "thread_id": "e7653d49-389d-4f72-af5e-a899d1f1ed99",
+      "from": "mailer-daemon@amazonses.com",
+      "subject": "Delivery Status Notification (Failure)",
+      "marked_at": "2026-03-13T15:29:00Z",
+      "note": "bounce, marked read"
+    },
+    {
+      "message_id": "<BBD09449-4110-4A23-A653-511C84857CDC@gmail.com>",
+      "thread_id": "6d0a29cc-5c74-4304-92a0-2713ca36562a",
+      "from": "Mikhail Novikov <mikhail.g.novikov@gmail.com>",
+      "subject": "Re: привет",
+      "replied_at": "2026-03-13T15:24:00Z",
+      "note": "Ответил: Всё хорошо, спасибо! Работаю в штатном режиме..."
+    },
+    {
+      "message_id": "<22400DA6-4D3B-49B9-8BFD-C34BEC252CE5@gmail.com>",
+      "thread_id": "2151188d-eb9e-4338-8e87-bc67107a9255",
+      "from": "Mikhail Novikov <mikhail.g.novikov@gmail.com>",
+      "subject": "Re: тест",
+      "marked_at": "2026-03-13T15:24:00Z",
+      "note": "marked read (older msg in thread)"
+    },
+    {
+      "message_id": "<41DF7858-A8A0-4794-A570-5F2AF22E755E@gmail.com>",
+      "thread_id": "2151188d-eb9e-4338-8e87-bc67107a9255",
+      "from": "Mikhail Novikov <mikhail.g.novikov@gmail.com>",
+      "subject": "Re: тест",
+      "marked_at": "2026-03-13T15:24:00Z",
+      "note": "marked read (older msg in thread)"
+    },
+    {
+      "message_id": "<2A85C5C6-BEB7-42AA-A462-327C3338CA26@gmail.com>",
+      "thread_id": "2151188d-eb9e-4338-8e87-bc67107a9255",
+      "from": "Mikhail Novikov <mikhail.g.novikov@gmail.com>",
+      "subject": "Re: тест",
+      "marked_at": "2026-03-13T15:24:00Z",
+      "note": "marked read (older msg in thread)"
+    },
+    {
+      "message_id": "<458D387C-0523-46B6-81E4-E6191767FD47@gmail.com>",
+      "thread_id": "2151188d-eb9e-4338-8e87-bc67107a9255",
+      "from": "Mikhail Novikov <mikhail.g.novikov@gmail.com>",
+      "subject": "Re: тест",
+      "replied_at": "2026-03-13T15:24:00Z",
+      "note": "Ответил: Ты — Mikhail Novikov (mikhail.g.novikov@gmail.com)..."
+    },
+    {
+      "message_id": "<93C0C478-5D28-4583-8E24-B7849933DE01@gmail.com>",
+      "thread_id": "02647fc8-528e-4c56-a0df-b271f8d4e769",
+      "from": "Mikhail Novikov <mikhail.g.novikov@gmail.com>",
+      "subject": "тест",
+      "replied_at": "2026-03-16T12:40:41.233605Z",
+      "note": "Ответил: Привет! Получил твое сообщение. Все системы работа..."
+    }
+  ]
+}
