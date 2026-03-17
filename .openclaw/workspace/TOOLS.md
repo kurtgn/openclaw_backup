@@ -39,6 +39,14 @@ Skills are shared. Your setup is yours. Keeping them apart means you can update 
 
 Add whatever helps you do your job. This is your cheat sheet.
 
+### Obsidian Vault
+- **Path:** `/home/ubuntu/obsidian/obsidian_notes/`
+- **Git repo:** `git@github.com:kurtgn/obsidian_notes.git`
+- **CLI:** `notesmd-cli` (installed at `~/.npm-global/bin/notesmd-cli`)
+- **Auto-sync:** OpenClaw cron job every 5 minutes (job ID: 513ab394-f45e-407d-83c8-19715570950e)
+- **Default vault:** `obsidian_notes`
+- **Config:** `~/.config/obsidian/obsidian.json`
+
 ### AgentMail
 - Inbox: frodotheclaw@agentmail.to
 - API key: stored in ~/.openclaw/openclaw.json under skills.agentmail.env.AGENTMAIL_API_KEY

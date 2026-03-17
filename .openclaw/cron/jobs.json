@@ -105,7 +105,7 @@
       "name": "Obsidian vault auto-sync",
       "enabled": true,
       "createdAtMs": 1773741343622,
-      "updatedAtMs": 1773741343622,
+      "updatedAtMs": 1773741663626,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -121,7 +121,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1773741643622
+        "nextRunAtMs": 1773741943628,
+        "lastRunAtMs": 1773741643628,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 19998,
+        "lastDeliveryStatus": "not-requested",
+        "consecutiveErrors": 0
       }
     }
   ]
