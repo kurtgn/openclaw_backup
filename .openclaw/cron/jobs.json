@@ -97,6 +97,32 @@
         "lastDeliveryStatus": "unknown",
         "consecutiveErrors": 0
       }
+    },
+    {
+      "id": "513ab394-f45e-407d-83c8-19715570950e",
+      "agentId": "main",
+      "sessionKey": "agent:main:main",
+      "name": "Obsidian vault auto-sync",
+      "enabled": true,
+      "createdAtMs": 1773741343622,
+      "updatedAtMs": 1773741343622,
+      "schedule": {
+        "kind": "every",
+        "everyMs": 300000,
+        "anchorMs": 1773741343622
+      },
+      "sessionTarget": "main",
+      "wakeMode": "now",
+      "payload": {
+        "kind": "systemEvent",
+        "text": "Auto-sync Obsidian vault: cd /home/ubuntu/obsidian/obsidian_notes && git pull origin master && git add -A && git diff --cached --quiet || (git commit -m \"Auto-sync $(date '+%Y-%m-%d %H:%M')\" && git push origin master)"
+      },
+      "delivery": {
+        "mode": "none"
+      },
+      "state": {
+        "nextRunAtMs": 1773741643622
+      }
     }
   ]
 }
