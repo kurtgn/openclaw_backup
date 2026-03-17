@@ -8,7 +8,7 @@
       "name": "Discord adrobot-dev daily summary",
       "enabled": true,
       "createdAtMs": 1773675407557,
-      "updatedAtMs": 1773676827137,
+      "updatedAtMs": 1773736283741,
       "schedule": {
         "kind": "cron",
         "expr": "30 8 * * *",
@@ -24,14 +24,14 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1773736200000,
-        "lastRunAtMs": 1773675544764,
-        "lastRunStatus": "error",
-        "lastStatus": "error",
-        "lastDurationMs": 30803,
-        "lastError": "Channel is required when multiple channels are configured: telegram, discord Set delivery.channel explicitly or use a main session with a previous channel.",
-        "lastDeliveryStatus": "unknown",
-        "consecutiveErrors": 1
+        "nextRunAtMs": 1773822600000,
+        "lastRunAtMs": 1773736200005,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 83736,
+        "lastDeliveryStatus": "not-delivered",
+        "consecutiveErrors": 0,
+        "lastDelivered": false
       }
     },
     {
@@ -41,7 +41,7 @@
       "name": "Daily OpenClaw backup to GitHub",
       "enabled": true,
       "createdAtMs": 1773767700000,
-      "updatedAtMs": 1773678741541,
+      "updatedAtMs": 1773721832436,
       "schedule": {
         "kind": "cron",
         "expr": "30 4 * * *",
@@ -57,14 +57,13 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1773721800000,
-        "lastRunAtMs": 1773678711823,
+        "nextRunAtMs": 1773808200000,
+        "lastRunAtMs": 1773721800005,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 29718,
+        "lastDurationMs": 32431,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0,
-        "runningAtMs": 1773721800003
+        "consecutiveErrors": 0
       }
     },
     {

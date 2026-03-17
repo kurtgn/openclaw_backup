@@ -163,29 +163,8 @@ find /home/ubuntu/.openclaw/workspace/skills/ -name "*.md" -type f 2>/dev/null |
     log "  ✓ $file"
 done
 
-# Copy obs_notes folder
-if [[ -d "/home/ubuntu/.openclaw/workspace/obs_notes" ]]; then
-    log "Copying obs_notes folder..."
-    find /home/ubuntu/.openclaw/workspace/obs_notes/ -type f 2>/dev/null | while read -r file; do
-        rel_path="${file#/home/ubuntu/}"
-        target_dir="$BACKUP_DIR/$(dirname "$rel_path")"
-        mkdir -p "$target_dir"
-        cp "$file" "$target_dir/"
-        log "  ✓ $file"
-    done
-fi
-
-# Copy obsidian_notes folder (now in workspace)
-if [[ -d "/home/ubuntu/.openclaw/workspace/obsidian_notes" ]]; then
-    log "Copying obsidian_notes folder..."
-    find /home/ubuntu/.openclaw/workspace/obsidian_notes/ -type f 2>/dev/null | while read -r file; do
-        rel_path="${file#/home/ubuntu/}"
-        target_dir="$BACKUP_DIR/$(dirname "$rel_path")"
-        mkdir -p "$target_dir"
-        cp "$file" "$target_dir/"
-        log "  ✓ $file"
-    done
-fi
+# NOTE: obsidian_notes and obs_notes folders are excluded from OpenClaw config backup
+# They are backed up separately via a different process
 
 success "Files copied to staging area"
 
@@ -349,9 +328,12 @@ This repository contains automated backups of the OpenClaw agent configuration.
 
 ## Contents
 
-- `obsidian_notes/my/` - Personality and memory files (SOUL.md, MEMORY.md, etc.)
-- `.openclaw/workspace/` - Workflow files and scripts
+- `.openclaw/workspace/` - Workflow files and scripts (SOUL.md, MEMORY.md, etc.)
 - `.openclaw/` - Configuration files, credentials (redacted), and agent settings
+
+## Excluded
+
+- `obsidian_notes/` - Backed up separately via dedicated Obsidian sync process
 
 ## Security
 
