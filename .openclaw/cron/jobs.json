@@ -21,7 +21,7 @@
         "message": "Read the last 24 hours of messages from Discord channel adrobot-dev (ID: 1412474461311205511) and create a summary with sections: Bugs, Questions, Other. Use Bot token from Discord/Integration.md. Save the summary to /home/ubuntu/obsidian_notes/Discord/daily-briefing-YYYY-MM-DD.md (use current date in filename), then git add, commit and push to the repository."
       },
       "delivery": {
-        "mode": "announce"
+        "mode": "none"
       },
       "state": {
         "nextRunAtMs": 1773736200000,
@@ -63,33 +63,40 @@
         "lastStatus": "ok",
         "lastDurationMs": 29718,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1773721800003
       }
     },
     {
-      "id": "0626b3ff-2eb0-4d7f-8af3-1471936fdc3a",
+      "id": "57d6a913-f0f0-4ad3-aabc-fda95aefa009",
       "agentId": "main",
       "sessionKey": "agent:main:main",
-      "name": "Telegram greeting every 5 minutes",
+      "name": "AgentMail inbox check",
       "enabled": true,
-      "createdAtMs": 1773679828717,
-      "updatedAtMs": 1773679828717,
+      "createdAtMs": 1773767700000,
+      "updatedAtMs": 1773767700000,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
-        "anchorMs": 1773679828717
+        "anchorMs": 1773767700000
       },
       "sessionTarget": "main",
       "wakeMode": "now",
       "payload": {
         "kind": "systemEvent",
-        "text": "Send Telegram message: Привет"
+        "text": "AgentMail: Check inbox frodotheclaw@agentmail.to for new emails. Read MEMORY.md (section 'AgentMail — правила работы с почтой') and process emails according to the rules. Reply to emails substantively, not just 'Got it.' After replying, record message_id in memory/agentmail-replied.json and send notification to Telegram about the reply."
       },
       "delivery": {
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1773680128717
+        "nextRunAtMs": 1773768000000,
+        "lastRunAtMs": 0,
+        "lastRunStatus": "pending",
+        "lastStatus": "pending",
+        "lastDurationMs": 0,
+        "lastDeliveryStatus": "unknown",
+        "consecutiveErrors": 0
       }
     }
   ]
