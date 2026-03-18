@@ -8,7 +8,7 @@
       "name": "Discord adrobot-dev daily summary",
       "enabled": true,
       "createdAtMs": 1773675407557,
-      "updatedAtMs": 1773736283741,
+      "updatedAtMs": 1773741895605,
       "schedule": {
         "kind": "cron",
         "expr": "30 8 * * *",
@@ -18,7 +18,7 @@
       "wakeMode": "now",
       "payload": {
         "kind": "agentTurn",
-        "message": "Read the last 24 hours of messages from Discord channel adrobot-dev (ID: 1412474461311205511) and create a summary with sections: Bugs, Questions, Other. Use Bot token from Discord/Integration.md. Save the summary to /home/ubuntu/obsidian_notes/Discord/daily-briefing-YYYY-MM-DD.md (use current date in filename), then git add, commit and push to the repository."
+        "message": "Read the last 24 hours of messages from Discord channel adrobot-dev (ID: 1412474461311205511) and create a summary with sections: Bugs, Questions, Other. Use Bot token from Discord/Integration.md. Save the summary to /home/ubuntu/obsidian/obsidian_notes/Discord/daily-briefing-YYYY-MM-DD.md (use current date in filename), then git add, commit and push to the repository."
       },
       "delivery": {
         "mode": "none"
@@ -63,7 +63,8 @@
         "lastStatus": "ok",
         "lastDurationMs": 32431,
         "lastDeliveryStatus": "not-requested",
-        "consecutiveErrors": 0
+        "consecutiveErrors": 0,
+        "runningAtMs": 1773808200003
       }
     },
     {
@@ -73,7 +74,7 @@
       "name": "AgentMail inbox check",
       "enabled": true,
       "createdAtMs": 1773767700000,
-      "updatedAtMs": 1773767700000,
+      "updatedAtMs": 1773807914313,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -89,12 +90,12 @@
         "mode": "none"
       },
       "state": {
-        "nextRunAtMs": 1773768000000,
-        "lastRunAtMs": 0,
-        "lastRunStatus": "pending",
-        "lastStatus": "pending",
-        "lastDurationMs": 0,
-        "lastDeliveryStatus": "unknown",
+        "nextRunAtMs": 1773808200501,
+        "lastRunAtMs": 1773807900501,
+        "lastRunStatus": "ok",
+        "lastStatus": "ok",
+        "lastDurationMs": 13812,
+        "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }
     },
@@ -105,7 +106,7 @@
       "name": "Obsidian vault auto-sync",
       "enabled": true,
       "createdAtMs": 1773741343622,
-      "updatedAtMs": 1773741663626,
+      "updatedAtMs": 1773807987686,
       "schedule": {
         "kind": "every",
         "everyMs": 300000,
@@ -117,15 +118,12 @@
         "kind": "systemEvent",
         "text": "Auto-sync Obsidian vault: cd /home/ubuntu/obsidian/obsidian_notes && git pull origin master && git add -A && git diff --cached --quiet || (git commit -m \"Auto-sync $(date '+%Y-%m-%d %H:%M')\" && git push origin master)"
       },
-      "delivery": {
-        "mode": "none"
-      },
       "state": {
-        "nextRunAtMs": 1773741943628,
-        "lastRunAtMs": 1773741643628,
+        "nextRunAtMs": 1773808282306,
+        "lastRunAtMs": 1773807982306,
         "lastRunStatus": "ok",
         "lastStatus": "ok",
-        "lastDurationMs": 19998,
+        "lastDurationMs": 5380,
         "lastDeliveryStatus": "not-requested",
         "consecutiveErrors": 0
       }

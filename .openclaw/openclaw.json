@@ -112,7 +112,7 @@
         "mode": "safeguard"
       },
       "heartbeat": {
-        "every": "5m"
+        "every": "30m"
       },
       "maxConcurrent": 4,
       "subagents": {

@@ -1,7 +1,5 @@
 # HEARTBEAT.md
 
-## Greeting — отправка приветствия
+## Heartbeat
 
-1. Прочитай файл `/home/ubuntu/obsidian_notes/Greeting.md`
-2. Отправь его содержимое в Telegram (основная сессия) — это приветствие на сегодня
-3. **Важно:** субагенты НЕ могут отправлять сообщения в Telegram, только основная сессия
+No tasks configured.
